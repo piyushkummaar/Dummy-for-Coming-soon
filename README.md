@@ -41,9 +41,18 @@ To set up the project locally, follow these steps:
 
    ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
-
+   
+   #### On Linux, use
+   ```sh
+   source venv/bin/activate  
+   ```
+   
+   #### On Windows, use
+   ```sh   
+   venv\Scripts\activate 
+   ```
+   
 3. **Install the dependencies:**
 
    ```sh
@@ -68,7 +77,7 @@ To set up the project locally, follow these steps:
 
 ## Usage
 
-You can customize the content and styling of the "Coming Soon" page by editing the template and static files. The main template file is located at `templates/coming_soon.html`. You can also modify the styles in the `static/css` directory.
+You can customize the content and styling of the "Coming Soon" page by editing the template and static files. The main template file is located at `templates/index.html`. You can also modify the styles in the `static/css` directory.
 
 ## Contributing
 
@@ -78,6 +87,3 @@ Contributions are welcome! If you'd like to contribute, please fork the reposito
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
----
-
-Feel free to modify the README as per your project's specific requirements and details. Let me know if there's anything else you need!
